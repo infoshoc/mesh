@@ -2,6 +2,8 @@
 # This file is part of psbody.mesh project which is released under MPI License.
 # See file LICENSE.txt for full license details.
 
+export MACOSX_DEPLOYMENT_TARGET=10.10
+
 tmpdirbuild := temporary_test
 venv_dir := $(tmpdirbuild)/venv
 activate := $(venv_dir)/bin/activate
